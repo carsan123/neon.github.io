@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    
+    <!-- aqui header -->
+    <header class="contenido-encabezado" id="contenido-encabezado">
+        <div class="texto-encabezado">
+            <p class="icono">
+                <i class="fas fa-glass-cheers"></i>
+            </p>
+            <h1 class="titulo">Bohemiam<br>¡Bar!<hr>
+                <span class="titulo-naranja-neon texto-regular">50% de Descuento</span>
+            </h1>
+            <p class="descripcion">
+                Tenemos nueva sucursal<br>
+                Por apertura, todas nuestra bebidas a mitad <br>
+                de precio en carrera 22 # 34, Bucaramanga.
+            </p>
+
+            <a href="#" class="btn-link texto-regular">Mas información</a>
+        </div>
+
+    </header>
+
+    <main>
+        <section class="contenedor">
+            <h2 class="subtitulo-h2">Servicios</h2>
+            <p><span class="letra-capital">L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Quo, aperiam? Molestiae corrupti quos animi porro modi molestias maxime corporis tempora. Labore itaque fugiat dolor optio? Inventore unde, doloribus nam culpa aut nesciunt dolor fuga itaque magnam rem ipsum facere perspiciatis iure expedita aperiam vel voluptate consequatur consectetur incidunt libero laboriosam?</p>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure tempora rerum unde iste distinctio. Aperiam aspernatur magnam beatae adipisci quis molestias, reiciendis fugiat cumque odio, ut temporibus placeat. Error possimus impedit explicabo ipsa suscipit quod voluptate, ducimus doloremque omnis, placeat, nulla magni dolorem quaerat magnam ad. Consectetur illum, eveniet hic harum dolorum, eius voluptatum nostrum ex natus, repellendus praesentium porro.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet numquam obcaecati, earum similique cum unde.</p>
+        </section>
+    </main>
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/c438c8a3c2.js"></script>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('contenido-encabezado');
+            header.style.opacity = '1' - window.pageYOffset / 650;
+        });
+    </script>
+</body>
+</html>
